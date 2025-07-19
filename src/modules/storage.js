@@ -1,6 +1,6 @@
 let KEY = 'todo-projects';
 
-export function saveProjects() {
+export function saveProjects(projects) {
     localStorage.setItem(KEY, JSON.stringify(projects));
 }
 
